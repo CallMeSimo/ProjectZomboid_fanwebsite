@@ -1,0 +1,103 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+  padding: 0;
+  list-style-type: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  background-color:#424952;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+/* CLASS */
+.Mascot{
+  height        : 8rem;
+  margin        : 0 auto;
+  padding       : 0 0;
+  border-radius : 100%;
+  border        : 2px solid black;
+  box-shadow    : 0px 5px 15px 0px black;
+
+  /* transform     : translateY(100); */
+}
+
+.header-items{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/* ID */
+#header{
+  position: relative;
+  /* background-color:#131313; */
+  background-image: url(Images/zombie-survival-1-scaledResized.jpg);
+  width         : 100%;
+  height        : 4rem;
+  top           : 0;
+  margin        : 0;
+  padding       : 0;
+  border        : 1px solid black;
+  box-shadow    : -5px 8px 18px 5px black;
+
+}
+#header h5{
+  margin        : 0;
+  padding       : 0;
+}
+#header-left-list{
+  display       : inline-flex;
+  width: 70%;
+  padding: 0 0;
+  margin : 0 0;
+}
+#header-left-list li{
+  margin-right: 0;
+  margin-left: 10%;
+  color         : white;
+}
+#header-left-list li p{
+  padding-top: 50%;
+  
+}
